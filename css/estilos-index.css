@@ -1,0 +1,63 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: transparent;
+	font-family: 'Raleway';
+}
+
+#logos{
+    max-width: 100%;
+}
+
+main{
+	max-width: 100%;
+	height:1030px;
+	background-color:transparent;
+}
+
+.slider{
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    
+    animation: cambio 20s infinite;
+    animation-direction: normal;
+}
+
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+
+.slider img{
+    width: 100%;
+}
+
+@keyframes cambio{
+    0%{margin-left: 0;}
+    14.28571428571429%{margin-left: 0;}
+    
+    28.57142857142857%{margin-left: -100%;}
+    42.85714285714286%{margin-left: -100%;}
+    
+    57.14285714285715%{margin-left: -200%;}
+    71.42857142857144%{margin-left: -200%;}
+    
+    85.71428571428573%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+
+footer{
+	max-width: 100%;
+	height:200px;
+	background-color:yellow;
+}

@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: transparent;
+	font-family: 'Raleway';
+}
+
+main{
+	max-width: 100%;
+	height:1030px;
+	background-color:;
+}
+
+#logos{
+    max-width: 100%;
+}
+
+#descargar{
+    margin-top: 20px;
+}
+
+footer{
+	max-width: 100%;
+	height:200px;
+	background-color:yellow;
+}
+
